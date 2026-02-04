@@ -50,7 +50,7 @@ const perros = ["budhis","firulais","silver","lucy"]
 console.log("PERROS: ",perros)
 
 //Esto hace que se borre del array:
-// - A PARTIR DE LA POSICIÓN (NO INDICE) 1
+// - A PARTIR DE LA POSICIÓN
 // - DOS ELEMENTOS
 perros.splice(1,2)
 //Aquí se borraron: "firulais" y "silver"
