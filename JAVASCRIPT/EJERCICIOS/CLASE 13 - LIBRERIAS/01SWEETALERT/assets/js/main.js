@@ -1,4 +1,4 @@
-/* ****** LIBRERÍAS ****** */
+/* ****** LIBRERÍA SWEETALERT ****** */
 
 init()
 
