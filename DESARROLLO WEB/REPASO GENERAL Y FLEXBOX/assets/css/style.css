@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  line-height: normal;
+}
+
+h1{
+    color: #0099FF;
+    text-align:center;
+}
+
+
+/*Barra de Navegación*/
+#menu{
+
+    background-color:#E6CF99;
+
+}
+
+.btnMenu {
+    background-color: #0099FF;
+    margin-left: 20px;
+    border:1px solid;   
+    border-radius: 6px;
+}
+
+.btnMenu:hover {
+    background-color: aqua;
+}
+
+.btnMenu a {
+    font-weight: bold;
+
+}
+
+
+
+
+.colum {
+    margin:10px;
+    padding: 4px;
+    border: 2px solid #FF0000;
+}

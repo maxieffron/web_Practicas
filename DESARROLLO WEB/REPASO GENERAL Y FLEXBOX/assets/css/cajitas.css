@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  line-height: normal;
+}
+
+h1{
+    color: #0099FF;
+    text-align:center;
+}
+
+
+/*Barra de Navegación*/
+#menu{
+    background-color:#E6CF99;
+
+}
+
+.btnMenu {
+    background-color: #0099FF;
+    margin-left: 20px;
+    border:1px solid;   
+    border-radius: 6px;
+}
+
+.btnMenu:hover {
+    background-color: aqua;
+}
+
+.btnMenu a {
+    font-weight: bold;
+
+}
+
+
+/* CAJITAS */
+.uno {
+    width:100px;
+    height: 100px;
+    background-color: #B7FF4A;
+    position: relative;
+    top:50px;
+    left: 100px;
+
+
+    /* Opción Nº1
+    position: fixed; /* Se puede utilizar para el icono del WhatsApp
+    bottom: 50px;
+    right: 50px;
+    */
+}
+
+.dos{
+    width:50px;
+    height: 30px;
+    background-color: #FF9999;
+    position: absolute; 
+    top: 30px;
+    left: 10px;
+    
+}
+
+.container{
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+}
+
+.cajita {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F19504;
+    width: 200px;
+    height: auto;
+    border: 2px solid #0099FF;
+    margin: 10px;
+    border-radius: 4px;
+    
+}
+
+/*Adapto el texto a la cajita*/
+.cajita h3{
+   
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #B7FF4A;
+}
+
+.cajita p {
+    padding: 10px;
+    margin: 0;
+}
+
+
+.cajita img {
+
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+/*FOOTER*/
+.footer-copyright{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    background-color:#000000;
+    color:#E6CF99
+    
+}
+
