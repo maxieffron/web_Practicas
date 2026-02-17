@@ -1,0 +1,36 @@
+//Imports
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  line-height: normal;
+}
+@import "./partials/colores";
+@import "./partials/listas";
+
+
+h1{
+    color: #0099FF;
+    text-align:center;
+}
+
+p{
+    color:$primary-color;
+    margin-left: 30px;
+}
+
+
+
+.noticias {
+
+    width: 30px;
+    height: 30px;
+
+    
+    &__titulo {
+    /* Poner en SASS "&__titulo" equivale a poner ".noticias__titulo" */
+        font-weight: bold;
+    }
+}

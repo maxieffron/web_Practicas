@@ -1,0 +1,39 @@
+
+ul{
+
+    list-style: none;
+    font-size: 20px;
+}
+
+li{
+    width: 250px;
+    height: 50px;
+    margin: 16px;
+    padding: 15px;
+    background-color: aqua;
+    border-radius: 4px;
+    color: $primary-color;
+    text-align: center;
+}
+
+main{
+
+    ul {
+         @extend ul;
+        
+        li{
+
+            @extend li;
+            background-color: #FF9999;
+            border: 2px solid red;
+            border-radius: 6px;
+            color: #99FF00;
+            
+
+            &:hover {
+                background-color: #E6CF99;
+                color:blue;
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  line-height: normal;
+}
+
+ul, main ul {
+  list-style: none;
+  font-size: 20px;
+}
+
+li, main ul li {
+  width: 250px;
+  height: 50px;
+  margin: 16px;
+  padding: 15px;
+  background-color: aqua;
+  border-radius: 4px;
+  color: #F19504;
+  text-align: center;
+}
+
+main ul li {
+  background-color: #FF9999;
+  border: 2px solid red;
+  border-radius: 6px;
+  color: #99FF00;
+}
+main ul li:hover {
+  background-color: #E6CF99;
+  color: blue;
+}
+
+h1 {
+  color: #0099FF;
+  text-align: center;
+}
+
+p {
+  color: #F19504;
+  margin-left: 30px;
+}
+
+.noticias {
+  width: 30px;
+  height: 30px;
+}
+.noticias__titulo {
+  /* Poner en SASS "&__titulo" equivale a poner ".noticias__titulo" */
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
